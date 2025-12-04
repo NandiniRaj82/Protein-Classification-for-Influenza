@@ -22,7 +22,7 @@ const CryoEMDashboard = () => {
       setProcessingState('uploaded');
       setError(null);
     } else {
-      setError('Unsupported file format. Please upload .map, .mrc, .pdb, .ent, or .cif files.');
+      setError('Unsupported file format');
     }
   };
 
